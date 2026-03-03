@@ -1,9 +1,5 @@
 # TPSE I – Bitwise Exercises
 
-![Language](https://img.shields.io/badge/language-C-blue)
-![Level](https://img.shields.io/badge/level-Embedded%20Programming-green)
-![Status](https://img.shields.io/badge/status-Completed-brightgreen)
-
 Repositório com implementações em C de exercícios sobre manipulação de bits e macros
 da disciplina **Técnicas de Programação para Sistemas Embarcados I (TPSE I)**.
 
@@ -65,17 +61,17 @@ tpse1-bitwise-exercises/
 
 ##  Exercícios Implementados
 
-### 🔹 Macros
+###  Macros
 - Q1 – CLEAR_BIT
 - Q2 – swap_bits
 
-### 🔹 Manipulação de Bits
+###  Manipulação de Bits
 - Q3 – Limpar bit específico
 - Q4 – Espelhamento de bits (mirror_bits)
 - Q7 – Rotação circular à direita
 - Q20 – Operações AND, OR e XOR
 
-### 🔹 Problemas com Pré-processador
+###  Problemas com Pré-processador
 - Q12 – Problema de precedência de operadores em macros
 - Q18 – Erro causado por ponto e vírgula em `#define`
 
@@ -93,7 +89,7 @@ gcc 01-clear-bit-macro.c -o clear_bit
 
 Ou para qualquer outro arquivo:
 
-``
+```
 gcc nome_do_arquivo.c -o programa
 ./programa
 
